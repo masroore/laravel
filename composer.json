@@ -11,6 +11,10 @@
     {
       "url": "https://github.com/masroore/laravel-framework.git",
       "type": "git"
+    },
+    {
+      "type": "path",
+      "url": "./spark"
     }
   ],
   "require": {
@@ -77,11 +81,5 @@
     "optimize-autoloader": true
   },
   "minimum-stability": "dev",
-  "prefer-stable": true,
-  "repositories": [
-    {
-      "type": "path",
-      "url": "./spark"
-    }
-  ]
+  "prefer-stable": true
 }
